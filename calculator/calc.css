@@ -45,6 +45,10 @@ input[type="button"]:hover {
     color: black;
 }
 
+input[type="button"] {
+    appearance: none;
+}
+
 input.button.mathButtons {
     width: 95px;
     height: 95px;
