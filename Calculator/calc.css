@@ -1,0 +1,89 @@
+body {
+    background-color: #fbf7f5;
+    font-family: 'Open Sans';
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container {
+    width: 390px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #e0e0e0;
+    box-shadow: 20px 20px 50px #a8a8a8;
+    
+}
+
+#display {
+    width: 392px;
+    height: 75px;
+    border: none;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#buttonDigits {
+    width: 95px;
+    height: 95px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 4px;
+    transition-duration: 0.3s;
+
+}
+
+input[type="button"]:hover {
+    background-color: #F0F0F0;
+    color: black;
+}
+
+input.button.mathButtons {
+    width: 95px;
+    height: 95px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: #F0F0F0;
+    transition-duration: 0.3s;
+}
+
+input.button.mathButtons:hover {
+    background-color: white;
+}
+
+#clearButton {
+    width: 95px;
+    height: 95px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: #F0F0F0;
+    transition-duration: 0.3s;
+}
+
+#clearButton:hover {
+    background-color: white;
+}
+
+input.button.digits {
+    width: 95px;
+    height: 95px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #F0F0F0;
+    transition-duration: 0.3s;
+}
+
+input.button.digits:hover {
+    background-color: white;
+}
+
