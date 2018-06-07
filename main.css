@@ -29,6 +29,10 @@ li a:hover {
     color: #747fe1;
 }
 
+.grid-item {
+    margin: 10px;
+}
+
 .wrapper {
     height: 20%;
 }
